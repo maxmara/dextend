@@ -1,0 +1,20 @@
+{
+  "name": "dextend",
+  "description": "Deep extend for your JS objects",
+  "keywords": ["extend", "objects", "deep"],
+  "version": "0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxmara/dextend.git"
+  },
+  "author": {
+    "name": "Vladyslav Millier",
+    "email": "vmiller@meta-labs.org",
+    "url": "http://meta-labs.org"
+  },
+  "main": "./dextend.js",
+  "engines": {
+    "node": "*"
+  },
+  "readmeFilename": "README.md"
+}
