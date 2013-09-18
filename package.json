@@ -2,7 +2,11 @@
   "name": "dextend",
   "description": "Deep extend for your JS objects",
   "keywords": ["extend", "objects", "deep"],
-  "version": "0.1",
+  "version": "0.1.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/maxmara/dextend.git"
@@ -12,9 +16,15 @@
     "email": "vmiller@meta-labs.org",
     "url": "http://meta-labs.org"
   },
-  "main": "./dextend.js",
+  "main": "./index.js",
   "engines": {
     "node": "*"
   },
-  "readmeFilename": "README.md"
+  "devDependencies": {
+    "undersore": ">=1.x"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/maxmara/issues"
+  }
 }
