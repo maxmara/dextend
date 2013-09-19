@@ -6,10 +6,9 @@ config files you want to compile in the same project (Great example is Magento x
 Installation
 ------------
 
-dExtend is available trough github repositories. Download and unpack this module into node_modules folder.
-Also you can install this module using npm
+dExtend is available trought npm tool
 
-npm install dextend
+**npm install dextend**
 
 
 Example
