@@ -14,23 +14,23 @@ dExtend is available trought npm tool
 Example
 -------
 
-var d = require('dextend');
+    var d = require('dextend');
 
-var obj1 = {
-    'this': 'is_sparta',
-    'sparta': {
-        'is': 'here',
-        'and': 'here'
+    var obj1 = {
+        'this': 'is_sparta',
+        'sparta': {
+            'is': 'here',
+            'and': 'here'
+        }
     }
-}
 
-var obj2 = {
-    'this': 'is_dextend',
-    'sparta': 'is not here'
-}
+    var obj2 = {
+        'this': 'is_dextend',
+        'sparta': 'is not here'
+    }
 
-var final = d.extend(obj1, obj2);
-console.log(final);
+    var final = d.extend(obj1, obj2);
+    console.log(final);
 
 #License
 Copyright (c) 2013 Vladyslav Millier
